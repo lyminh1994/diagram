@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T09:26:02.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="M0ItMaqoMQZ_9OqbPaXZ" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-09T09:48:20.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="STl-bZeWfmecnEl7pEuL" version="14.8.4" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1572" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,6 +98,53 @@
         </mxCell>
         <mxCell id="9lxvfk_QXLeVURCALwFd-4" value="Mở thẻ ảo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="9lxvfk_QXLeVURCALwFd-17">
           <mxGeometry x="20" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gCxHAqNwmSpDNeJrXhRH" name="Page-2">
+    <mxGraphModel dx="1572" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-0" />
+        <mxCell id="KQxz3jXtC__-18_PvTXP-1" parent="KQxz3jXtC__-18_PvTXP-0" />
+        <mxCell id="KQxz3jXtC__-18_PvTXP-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="KQxz3jXtC__-18_PvTXP-1" source="KQxz3jXtC__-18_PvTXP-2" target="KQxz3jXtC__-18_PvTXP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;fillColor=none;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="70" y="200" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="KQxz3jXtC__-18_PvTXP-1" source="KQxz3jXtC__-18_PvTXP-3" target="KQxz3jXtC__-18_PvTXP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-3" value="External KONG Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="71.75" y="436.75" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="KQxz3jXtC__-18_PvTXP-1" source="KQxz3jXtC__-18_PvTXP-4" target="KQxz3jXtC__-18_PvTXP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-4" value="Internal KONG Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="450" y="436.75" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=bottom;" edge="1" parent="KQxz3jXtC__-18_PvTXP-1" source="KQxz3jXtC__-18_PvTXP-5" target="KQxz3jXtC__-18_PvTXP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-5" value="ACB&lt;br&gt;External Kubernetes Cluster" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;dashed=1;align=center;horizontal=1;verticalAlign=top;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="220" y="372.38" width="180" height="221.75" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-7" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; display: inline ; float: none&quot;&gt;ACB&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; display: inline ; float: none&quot;&gt;Internal Kubernetes Cluster&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=1;fillColor=#CCFFFF;verticalAlign=top;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="590" y="430" width="180" height="106.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="KQxz3jXtC__-18_PvTXP-1" source="KQxz3jXtC__-18_PvTXP-9" target="KQxz3jXtC__-18_PvTXP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-9" value="Card services" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="250" y="412.26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-10" value="AAG APIs" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="620" y="469.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KQxz3jXtC__-18_PvTXP-17" value="BO Web" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="KQxz3jXtC__-18_PvTXP-1">
+          <mxGeometry x="250" y="502.51" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
