@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T15:01:42.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="kSaHPRuM1R9IIKQAQkDG" version="14.9.6" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-08-31T11:58:56.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="4mBrK-vFKX4kzOgtwj-a" version="14.9.6" type="github" pages="14">
   <diagram id="hd0Ka5t1frM0ckPXlcHm" name="View-List-Card">
-    <mxGraphModel dx="1742" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1692" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_UagtH8NP6pTkRekgera-0" />
         <mxCell id="_UagtH8NP6pTkRekgera-1" parent="_UagtH8NP6pTkRekgera-0" />
@@ -64,11 +64,11 @@
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
           <mxGeometry x="734" y="180" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_uYr-ArWrwQnzgeDa2tB-25" value="Request list cards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="319" y="130" width="110" height="20" as="geometry" />
+        <mxCell id="_uYr-ArWrwQnzgeDa2tB-25" value="Request list cards&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/bankservice/dashboard/cards&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
+          <mxGeometry x="284" y="121" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_uYr-ArWrwQnzgeDa2tB-27" value="Get list cards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="573" y="160" width="90" height="20" as="geometry" />
+        <mxCell id="_uYr-ArWrwQnzgeDa2tB-27" value="Get list cards&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/rd/party/persons/{persNumber}/cardslist&lt;br&gt;/v1/oe/cards/virtual/{persNumber}&lt;br&gt;/oe/cards&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
+          <mxGeometry x="504" y="118.52000000000001" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-28" value="Response list cards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
           <mxGeometry x="558" y="190.52" width="120" height="20" as="geometry" />
