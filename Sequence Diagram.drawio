@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T16:06:26.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="VYz9Gf1Txd1zfBDzOnNZ" version="14.9.6" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-09-01T01:42:32.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="GLLhW3dfrmqgdys3u29Z" version="14.9.6" type="github" pages="14">
   <diagram id="hd0Ka5t1frM0ckPXlcHm" name="View-List-Card">
     <mxGraphModel dx="1692" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,7 +381,7 @@
         <mxCell id="XPwePn54EAE1wuMBII6Q-1" value="Get list account API&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/legacy/rd/party/persons/{persNumber}/account&lt;br&gt;/oe/ld/accounts&lt;br&gt;/oe/ld/accounts/{accountNumber}/acctbals&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
           <mxGeometry x="456.30999999999995" y="290" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XPwePn54EAE1wuMBII6Q-2" value="Request list account&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/bankservice/account/list&lt;br&gt;/account-virtualcard&lt;br&gt;/bankservice/account/balance&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
+        <mxCell id="XPwePn54EAE1wuMBII6Q-2" value="Request list account&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/bankservice/account/list/&lt;br&gt;account-virtualcard&lt;br&gt;/bankservice/account/balance&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
           <mxGeometry x="235" y="281" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XPwePn54EAE1wuMBII6Q-3" value="List account and balance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
@@ -522,7 +522,7 @@
         <mxCell id="uj5bsSwiWZR23nPAlLhF-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=1;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
           <mxGeometry x="42.5" y="576.77" width="737.5" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="2Xwto3WVlJayRlUSp-om-0" value="Request term and condition&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/cardservice/virtual&lt;br&gt;/terms-and-conditions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
+        <mxCell id="2Xwto3WVlJayRlUSp-om-0" value="Request term and condition&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/cardservice/virtual/&lt;br&gt;terms-and-conditions&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
           <mxGeometry x="237.15999999999997" y="632" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2Xwto3WVlJayRlUSp-om-1" value="Response term and condition" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="QinwR9uIr_FC2ZUE0VAv-1">
@@ -1256,7 +1256,7 @@
         <mxCell id="NJf-WO02EdQ4i-G8_I7d-9" value="View card info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="wpSH0v30T8A4Kb-bWRW9-1" vertex="1">
           <mxGeometry x="130" y="110" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NJf-WO02EdQ4i-G8_I7d-10" value="Request card info&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/bankservice/dashboard/cards&lt;br&gt;/{cardToken}/{cardType}&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="wpSH0v30T8A4Kb-bWRW9-1" vertex="1">
+        <mxCell id="NJf-WO02EdQ4i-G8_I7d-10" value="Request card info&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/bankservice/dashboard/cards/&lt;br&gt;{cardToken}/{cardType}&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="wpSH0v30T8A4Kb-bWRW9-1" vertex="1">
           <mxGeometry x="300" y="100" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NJf-WO02EdQ4i-G8_I7d-11" value="Get card info&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/rd/party/persons/{persNumber}/cards&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;/v1/oe/cards/virtual/{persNumber}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;/oe/cards&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="wpSH0v30T8A4Kb-bWRW9-1" vertex="1">
@@ -1410,7 +1410,7 @@
         <mxCell id="ZIKP1A5e16sEUCdjQd_R-4" value="Show CVV and&lt;br&gt;Full PAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="CLO50B_Lg7OLh6JSoTIQ-1" vertex="1">
           <mxGeometry x="75" y="750" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZIKP1A5e16sEUCdjQd_R-9" value="Request generate token&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/cardservicec/virtual&lt;br&gt;/carddetail/submit&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="CLO50B_Lg7OLh6JSoTIQ-1" vertex="1">
+        <mxCell id="ZIKP1A5e16sEUCdjQd_R-9" value="Request generate token&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/cardservicec/virtual/&lt;br&gt;carddetail/submit&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="CLO50B_Lg7OLh6JSoTIQ-1" vertex="1">
           <mxGeometry x="231" y="618" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZIKP1A5e16sEUCdjQd_R-10" value="Response JWT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="CLO50B_Lg7OLh6JSoTIQ-1" vertex="1">
