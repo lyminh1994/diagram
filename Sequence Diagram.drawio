@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T10:25:24.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="8Me4HI6HlfQhU23FItbB" version="15.0.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-09-10T10:27:40.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="fWKgmWBxLRBBPGO1PKpn" version="15.0.6" type="github" pages="15">
   <diagram id="hd0Ka5t1frM0ckPXlcHm" name="View-List-Card">
     <mxGraphModel dx="1806" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2722,7 +2722,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lCdV8Aa22lu-_TyniXoF" name="Cancel-card-confirm">
-    <mxGraphModel dx="1692" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="2241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7uVevVi1qxwnJWVe4KAQ-0" />
         <mxCell id="7uVevVi1qxwnJWVe4KAQ-1" parent="7uVevVi1qxwnJWVe4KAQ-0" />
@@ -2966,14 +2966,14 @@
             <mxPoint x="570" y="-661" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5G7Ht3rxgB29i7GTdgOQ-5" value="Request send authentication value&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;/cardservice/virtual/cancel-card/submit&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
-          <mxGeometry x="289" y="-740" width="220" height="30" as="geometry" />
+        <mxCell id="5G7Ht3rxgB29i7GTdgOQ-5" value="Request send authentication value&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;/cardservice/virtual/submit-&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;cancel-virtualcard&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
+          <mxGeometry x="274" y="-740" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5G7Ht3rxgB29i7GTdgOQ-6" value="Request input&lt;br&gt;authentication value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
           <mxGeometry x="78" y="-721" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5G7Ht3rxgB29i7GTdgOQ-7" value="Verify authentication value&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;/cardservice/virtual/cancel-card/verify&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
-          <mxGeometry x="289.75" y="-691" width="210" height="30" as="geometry" />
+        <mxCell id="5G7Ht3rxgB29i7GTdgOQ-7" value="Verify authentication value&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;/cardservice/virtual/verify&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
+          <mxGeometry x="314.75" y="-691" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5G7Ht3rxgB29i7GTdgOQ-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.2;entryY=0.209;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3002,28 +3002,28 @@
         <mxCell id="5G7Ht3rxgB29i7GTdgOQ-14" value="Request verify&lt;br&gt;authentication value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
           <mxGeometry x="605.75" y="-684" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lUdUFV8li8PsIBKUUuU_-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;verticalAlign=middle;" vertex="1" parent="7uVevVi1qxwnJWVe4KAQ-1">
+        <mxCell id="lUdUFV8li8PsIBKUUuU_-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;verticalAlign=middle;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
           <mxGeometry x="394" y="-945" width="10" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="jGJw-bcaUXjmwWF8t6FV-1" value="Authentication&amp;nbsp;OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="7uVevVi1qxwnJWVe4KAQ-1">
+        <mxCell id="jGJw-bcaUXjmwWF8t6FV-1" value="Authentication&amp;nbsp;OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
           <mxGeometry x="614" y="-561" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jGJw-bcaUXjmwWF8t6FV-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="7uVevVi1qxwnJWVe4KAQ-1">
+        <mxCell id="jGJw-bcaUXjmwWF8t6FV-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="7uVevVi1qxwnJWVe4KAQ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="748.25" y="-537.8199999999999" as="sourcePoint" />
             <mxPoint x="585.25" y="-538" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jGJw-bcaUXjmwWF8t6FV-3" value="Authentication&amp;nbsp;invalid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="7uVevVi1qxwnJWVe4KAQ-1">
+        <mxCell id="jGJw-bcaUXjmwWF8t6FV-3" value="Authentication&amp;nbsp;invalid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
           <mxGeometry x="604" y="-629" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jGJw-bcaUXjmwWF8t6FV-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="7uVevVi1qxwnJWVe4KAQ-1">
+        <mxCell id="jGJw-bcaUXjmwWF8t6FV-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="7uVevVi1qxwnJWVe4KAQ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="748.25" y="-610.3199999999999" as="sourcePoint" />
             <mxPoint x="585.25" y="-610.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I-5So-xuenGOpw9dU4jF-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7uVevVi1qxwnJWVe4KAQ-1">
+        <mxCell id="I-5So-xuenGOpw9dU4jF-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="7uVevVi1qxwnJWVe4KAQ-1" vertex="1">
           <mxGeometry x="574" y="-740" width="10" height="410" as="geometry" />
         </mxCell>
       </root>
