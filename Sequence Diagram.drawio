@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T16:20:42.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="fEoUhmnxxR7W6QXJIEmU" version="15.1.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-10-25T03:21:28.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="eeMXIeZmvdll-Kdddnjq" version="15.2.7" type="github" pages="15">
   <diagram id="hd0Ka5t1frM0ckPXlcHm" name="View-List-Card">
-    <mxGraphModel dx="1806" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1872" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_UagtH8NP6pTkRekgera-0" />
         <mxCell id="_UagtH8NP6pTkRekgera-1" parent="_UagtH8NP6pTkRekgera-0" />
@@ -11,16 +11,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-0" value="MBA Usert" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;strokeColor=#000000;strokeWidth=1;fillColor=none;size=40;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="39" y="27" width="20" height="273" as="geometry" />
+          <mxGeometry x="39" y="27" width="20" height="393" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-1" value="&lt;span&gt;Mobile App&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=none;verticalAlign=middle;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="209" y="40" width="100" height="260" as="geometry" />
+          <mxGeometry x="209" y="40" width="100" height="380" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-2" value="&lt;span&gt;Banking service&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=none;verticalAlign=middle;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="449" y="40" width="100" height="260" as="geometry" />
+          <mxGeometry x="449" y="40" width="100" height="380" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-3" value="&lt;span&gt;AAG&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=none;verticalAlign=middle;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="689" y="40" width="100" height="260" as="geometry" />
+          <mxGeometry x="689" y="40" width="100" height="380" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="_UagtH8NP6pTkRekgera-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -30,12 +30,12 @@
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="_UagtH8NP6pTkRekgera-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="254" y="269" as="sourcePoint" />
-            <mxPoint x="48.83333333333326" y="269" as="targetPoint" />
+            <mxPoint x="254" y="384" as="sourcePoint" />
+            <mxPoint x="48.83333333333326" y="384" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="254" y="120" width="10" height="160" as="geometry" />
+          <mxGeometry x="254" y="120" width="10" height="280" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-21" value="Choose Card(s) on Dashboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
           <mxGeometry x="59" y="99.81" width="180" height="20" as="geometry" />
@@ -48,36 +48,72 @@
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="_UagtH8NP6pTkRekgera-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="494" y="239.23000000000002" as="sourcePoint" />
-            <mxPoint x="264" y="239.23000000000002" as="targetPoint" />
+            <mxPoint x="494" y="354.23" as="sourcePoint" />
+            <mxPoint x="264" y="354.23" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="494" y="150" width="10" height="100" as="geometry" />
+          <mxGeometry x="494" y="140" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="_UagtH8NP6pTkRekgera-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="733" y="210.80999999999997" as="sourcePoint" />
-            <mxPoint x="503" y="210.80999999999997" as="targetPoint" />
+            <mxPoint x="733" y="200.80999999999997" as="sourcePoint" />
+            <mxPoint x="503" y="200.80999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="734" y="180" width="10" height="40" as="geometry" />
+          <mxGeometry x="734" y="170" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-25" value="Request list cards&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/bankservice/dashboard/cards&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
           <mxGeometry x="284" y="121" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_uYr-ArWrwQnzgeDa2tB-27" value="Get list cards&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/rd/party/persons/{persNumber}/cardslist&lt;br&gt;/v1/oe/cards/virtual/{persNumber}&lt;br&gt;/oe/cards&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="504" y="118.52000000000001" width="230" height="60" as="geometry" />
+        <mxCell id="_uYr-ArWrwQnzgeDa2tB-27" value="Get list cards&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;/rd/party/persons/{persNumber}/cardslist&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
+          <mxGeometry x="504" y="149" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-28" value="Response list cards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="558" y="190.52" width="120" height="20" as="geometry" />
+          <mxGeometry x="558" y="180.52" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-29" value="Show list cards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="99" y="250" width="100" height="20" as="geometry" />
+          <mxGeometry x="99" y="365" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_uYr-ArWrwQnzgeDa2tB-30" value="Response list cards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="_UagtH8NP6pTkRekgera-1" vertex="1">
-          <mxGeometry x="314" y="220" width="120" height="20" as="geometry" />
+          <mxGeometry x="314" y="335" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="250" as="sourcePoint" />
+            <mxPoint x="735" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-1" value="Request list virtual cards&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;/v1/oe/cards/virtual/{persNumber}&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry x="523" y="220" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="734" y="275.28999999999996" as="sourcePoint" />
+            <mxPoint x="504" y="275.28999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-3" value="Response list virtual cards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry x="539" y="255" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="310" as="sourcePoint" />
+            <mxPoint x="735" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-5" value="Request account card information&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;/oe/cards&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry x="523" y="280" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="734" y="335.28999999999996" as="sourcePoint" />
+            <mxPoint x="504" y="335.28999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJoFUu8ywnl_3zQtKQ_2-7" value="Response account card information" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="_UagtH8NP6pTkRekgera-1">
+          <mxGeometry x="519" y="315" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
