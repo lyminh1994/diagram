@@ -1,0 +1,182 @@
+<mxfile host="65bd71144e">
+    <diagram id="uI5NPvJtjTxNpGihSweA" name="MBA - Push Notification">
+        <mxGraphModel dx="978" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="P09VOBW6P0nTFMSswUGx-1" value="BO API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="P09VOBW6P0nTFMSswUGx-2" value="Banking Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="P09VOBW6P0nTFMSswUGx-3" value="NDS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="P09VOBW6P0nTFMSswUGx-4" value="JWT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="0kBHqkP7XelM90-Eh-Vx-1" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Alternative&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#FF0000;width=70;height=30;" vertex="1" parent="1">
+                    <mxGeometry x="14" y="270" width="806" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ma_B6xsUKUhHRax3iyhG-1" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Alternative&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#FF0000;width=70;height=30;" vertex="1" parent="1">
+                    <mxGeometry x="229" y="372" width="571" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="200" width="10" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF0000;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="250" width="10" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-3" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#000000&quot;&gt;Validate input&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#FF0000;" edge="1" parent="1" target="nX9g4hbbc7wx1OCX0wos-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="230" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF0000;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="359" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-5" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#000000&quot;&gt;Validate &lt;br&gt;FunctionCode = VIDEOCALL&lt;br&gt;and StatusCode = 2 (Approved)&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#FF0000;" edge="1" parent="1" target="nX9g4hbbc7wx1OCX0wos-4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="339" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="339"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="311" width="10" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="745" y="438" width="10" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-8" value="Send process status&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;/bankingservice/notification/push&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="170" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-9" style="edgeStyle=none;html=1;entryX=-0.1;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="89.5" y="201" as="sourcePoint"/>
+                        <mxPoint x="304" y="201" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-10" value="If valid input" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="270" width="80" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-11" style="edgeStyle=none;rounded=0;html=1;entryX=0.1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="315" y="311" as="sourcePoint"/>
+                        <mxPoint x="526" y="311" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-12" style="edgeStyle=none;rounded=0;html=1;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="315" y="439" as="sourcePoint"/>
+                        <mxPoint x="747" y="439" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-13" value="Call push notification&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;/notification/push&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="280" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-14" value="Request update user role flag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="444" y="408" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nX9g4hbbc7wx1OCX0wos-15" value="If valid" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="372" width="80" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="XuHTRAJAtUea-ol802xK" name="NDS - Push Notification">
+        <mxGraphModel dx="931" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="IS6I9F4tk-9UiSH83MHr-0"/>
+                <mxCell id="IS6I9F4tk-9UiSH83MHr-1" parent="IS6I9F4tk-9UiSH83MHr-0"/>
+                <mxCell id="jhGl8ap32Sp0nhXzZMd0-0" value="Banking Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="40" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="jhGl8ap32Sp0nhXzZMd0-1" value="&lt;span&gt;NDS&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="240" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#FF0000;" vertex="1" parent="jhGl8ap32Sp0nhXzZMd0-1">
+                    <mxGeometry x="45" y="79" width="10" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="jhGl8ap32Sp0nhXzZMd0-3" value="PNS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="640" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#000000;" vertex="1" parent="jhGl8ap32Sp0nhXzZMd0-3">
+                    <mxGeometry x="45" y="289" width="10" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#000000;" vertex="1" parent="jhGl8ap32Sp0nhXzZMd0-3">
+                    <mxGeometry x="45" y="337" width="10" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-23" value="Collect&lt;br&gt;notification&lt;br&gt;and send" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#000000;" edge="1" parent="jhGl8ap32Sp0nhXzZMd0-3" target="nafSvzyf4d652MBf6Omr-22">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="317" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="80" y="317"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#FF0000;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="285" y="242" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-17" value="Push to nds-specific-notification &lt;br&gt;queue then collect and save&lt;br&gt;notification into database" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#000000;" edge="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="221" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="325" y="221"/>
+                            <mxPoint x="325" y="241"/>
+                        </Array>
+                        <mxPoint x="295" y="241" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-24" style="edgeStyle=none;rounded=0;html=1;entryX=-0.338;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;" edge="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="89.54761904761926" y="199.81400000000008" as="sourcePoint"/>
+                        <mxPoint x="284.6199999999999" y="199.81400000000008" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-25" value="Call push notification&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;/notification/push&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="100" y="169" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-26" value="&lt;font color=&quot;#000000&quot;&gt;Push notification ID to &lt;br&gt;scheduled-notification queue&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="301" y="270" width="177" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-27" style="edgeStyle=none;rounded=0;html=1;entryX=0.019;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#FF0000;" edge="1" parent="IS6I9F4tk-9UiSH83MHr-1" source="nafSvzyf4d652MBf6Omr-16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="485.1899999999998" y="301.86799999999994" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-29" value="&lt;font color=&quot;#000000&quot;&gt;Push notification info to &lt;br&gt;send-notification queue&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="517" y="376" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-30" value="Notification Engine" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="440" y="120" width="100" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#FF0000;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="485" y="302" width="10" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#000000;" vertex="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry x="485" y="344" width="10" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-33" value="Collect notification ID and get &lt;br&gt;more info to send notification" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#000000;" edge="1" parent="IS6I9F4tk-9UiSH83MHr-1" target="nafSvzyf4d652MBf6Omr-32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="324" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="520" y="324"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="nafSvzyf4d652MBf6Omr-34" style="edgeStyle=none;rounded=0;html=1;entryX=-0.076;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;exitX=0.995;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="IS6I9F4tk-9UiSH83MHr-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="494.9499999999998" y="409.3399999999999" as="sourcePoint"/>
+                        <mxPoint x="684.24" y="408.74800000000005" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
